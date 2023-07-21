@@ -3,10 +3,17 @@ module.exports = {
   theme: {
     extend: {},
 
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+
     colors: {
       title: "#2a4d60",
       text: "#2d2d41",
-      bac: "#a5c3ca"
+      sub_title: "#e3703b"
     },
 
     fontFamily: {
