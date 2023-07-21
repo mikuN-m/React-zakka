@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    body {
+        font-family: 'Zen Maru Gothic', sans-serif, 'Lumanosimo', cursive;
+    }
+}
+
+/* // $bacColor: #a5c3ca;
+// $titleColor: #e3703b;
+// $textColor: #2d2d41;
+// $titleFont: 'Lumanosimo', cursive;
+// $textFont: 'Zen Maru Gothic', sans-serif;
+
+// body {
+//     background-color: $bacColor;
+
+//     img {
+//         width: 100%;
+//     }
+//     a {
+//         text-decoration: none;
+//         color: $textColor;
+//     }
+// }
+
+// .authority {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: 5;
+//     display: inline;
+//     background-color: rgba(255, 255, 255, 0.432);
+//     color: $textColor;
+//     font-family: $textFont;
+//     font-weight: bold;
+// }
+
+
+// //ヘッダー
+// .top-img-wrapper {
+//     width: 100%;
+//     height: 50vh;
+//     background-image: url(top-img1.jpg);
+//     background-position: center;
+//     background-size: cover;
+//     display: grid;
+//     place-items: center;
+//     text-align: center;
+//     font-size: 2rem;
+
+//     .top-title {
+//         font-family: $titleFont;
+//         color: $textColor;
+//     }
+    
+//     .top-sub-titel {
+//         font-family: $textFont;
+//         color: $textColor;
+//         font-weight: bold;
+//     }
+// }
+
+
+// .introduction-content {
+//     width: 75%;
+//     margin: 80px auto;
+//     display: flex;
+//     justify-content: space-between;
+//     border-bottom-left-radius: 50% 39%;
+//     border-bottom-right-radius: 50% 39%;
+
+//     .introduction-title {
+//         width: 50%;
+//         font-size: 2.2rem;
+//         font-family: $textFont;
+//         color: $titleColor;
+//         padding-top: 30px;
+
+//         span {
+//             border-bottom: 2px solid #2a4d60;
+//         }
+//     }
+
+//     .introduction-text {
+//         width: 45%;
+//         font-family: $textFont;
+//         color: $textColor;
+//         font-size: 1.17rem;
+//     }
+// } */
