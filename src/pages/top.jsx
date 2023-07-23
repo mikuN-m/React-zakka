@@ -62,10 +62,65 @@ class Top extends React.Component {
                 </div>
 
 
-                <div className="my-28 md:p-10">
+                <div className="my-28 mx-6 md:p-10">
 
                     <div className="text-center">
                         <h1 className="font-title text-3xl">Menu</h1>
+                    </div>
+
+                    <div className="w-full my-5 grid grid-cols-1 md:grid-cols-2">
+
+                        <div className="flex justify-center my-4">
+                            <div className="w-1/3">
+                                <img src="menu-coffee.jpg" />
+                            </div>
+
+                            <div className="w-2/3">
+                                <h2 className="text-center">coffee</h2>
+
+                                <ul className="text-center">
+                                    <li>アメリカーノ - 350円</li>
+                                    <li>カフェラテ - 400円</li>
+                                    <li>エスプレッソ - 300円</li>
+                                    <li>カプチーノ - 450円</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div className="flex justify-center columns-2 my-4">
+                            <div className="w-1/3">
+                                <img src="menu-cake.jpg" />
+                            </div>
+
+                            <div className="w-2/3">
+                                <h2 className="text-center">cake</h2>
+
+                                <ul className="text-center">
+                                    <li>チョコレートケーキ - 500円</li>
+                                    <li>ベリータルト - 450円</li>
+                                    <li>チーズケーキ - 480円</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div className="flex justify-center columns-2 my-4">
+                            <div className="w-1/3">
+                                <img src="menu-food.jpg" />
+                            </div>
+
+                            <div className="w-2/3">
+                                <h2 className="text-center">food</h2>
+
+                                <ul className="text-center">
+                                    <li>サンドイッチセット（ハム＆チーズ） - 600円</li>
+                                    <li>クロワッサンセット（コーヒー付き） - 550円</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
