@@ -5,23 +5,24 @@ module.exports = {
 
     screens: {
       sm: '480px',
-      md: '768px',
-      lg: '976px',
+      md: '676px',
+      lg: '1157px',
       xl: '1440px',
     },
 
     colors: {
-      title: "#2a4d60",
-      text: "#2d2d41",
-      sub_title: "#e3703b"
+      title: "#222326",
+      text: "#47423E",
+      emphasis: "#638b97",
+      bg: "#d6ecfc"
     },
 
     fontFamily: {
       title: [
-        'Lumanosimo', 'cursive'
+        'Playfair Display', 'serif'
       ],
       text: [
-        'Zen Maru Gothic', 'sans-serif'
+        'BIZ UDPMincho', 'serif'
       ]
     }
     

@@ -8,78 +8,67 @@ class Top extends React.Component {
 
                 <div className="absolute top-0 left-0">
                     <p className="font-text">
-                        出典:<Link to={"https://www.photo-ac.com/"} target="_blank">PhotoAC</Link>
+                        出典:<Link to={"https://unsplash.com/ja"} target="_blank">unsplash</Link>
                     </p>
                 </div>
 
-                <div className="w-full h-screen bg-[url('top-img1.jpg')] bg-cover bg-center">
+                <div className="w-full h-screen bg-[url('top-img1.jpg')] bg-cover bg-center ">
 
-                    <div className="text-center w-full h-full bg-[#fff]/30 pt-64">
-                        <h1 className="text-6xl font-title text-title md:">
-                            beachside clubhouse
-                        </h1>
+                    <div className="grid place-items-center w-full h-full bg-[#fff]/20">
+                        <div className="text-center">
+                            <h1 className="text-6xl font-title text-title">
+                                beachside clubhouse
+                            </h1>
+                        </div>
                     </div>
 
                 </div>
 
-                {/* <div className="md:flex md:px-10">
+                <div className="my-6 md:p-10">
 
-                    <div className="flex justify-center text-3xl pt-5 whitespace-nowrap md:w-full md:mt-9 md:text-4xl">
-                        <h2 className="text-left text-sub_title">
-                            穏やかな波音と<br/>美味しいコーヒーで<br/>
-                            <span>至福のひとときを。</span>
-                        </h2>   
+                    <div className="flex justify-center text-2xl font-bold">
+                        <div>
+                            <h2 className="pb-2">穏やかな音楽と</h2>
+                            <h2 className="pb-2 pl-4">美味しいコーヒーで</h2>
+                            <h2 className="pl-10">至福のひとときを。</h2>
+                        </div>
                     </div>
-                                     
 
-                    <p className="p-5 text-sm md:w-full md:text-lg">
-                        蒼い海に包まれて、特別な時間を演出。穏やかな波音と美味しいコーヒーを楽しんでください。<br/><br/>
-                        こだわりの豆を使用した本格的なコーヒーやスイーツ、
-                        自家製のオリジナルドリンクやヘルシーなフードメニューも取り揃えております。<br/>
-                        デイリーランチやアフタヌーンティーセットなど、豊富なメニューで飽きることなくお楽しみください。<br/><br/>
+                    <p className="text-base font-bold mx-6 my-10 text-text text-left md:text-lg">
+                        蒼い海に包まれて、特別な時間を演出。穏やかな波音と美味しいコーヒーを楽しんでください。<br/>
                         心地よい風と波の音色が心を満たす、贅沢なカフェ体験をご提供します
                     </p>
 
-                </div> */}
+                    <div className="grid grid-cols-2 gap-3 m-6 md:grid-cols-4">
 
-                {/* 
-
-                <div className="introduction-content">
-
-                    <div className="introduction-title">
-                        <h2>
-                            穏やかな波音と<br/>美味しいコーヒーで<br/>
-                            <span>至福のひとときを。</span>
-                        </h2>
-                    </div>
-
-                    <div className="introduction-text">
-                        <p>
-                        。蒼い海に包まれて、特別な時間を演出。穏やかな波音と美味しいコーヒーを楽しんでください。<br/><br/>
-                        こだわりの豆を使用した本格的なコーヒーやスイーツ、
-                        自家製のオリジナルドリンクやヘルシーなフードメニューも取り揃えております。<br/>
-                        デイリーランチやアフタヌーンティーセットなど、豊富なメニューで飽きることなくお楽しみください。<br/><br/>
-                        心地よい風と波の音色が心を満たす、贅沢なカフェ体験をご提供します
-                        </p>
-                    </div>
-
-                </div>
-
-                <div className="top-img-wrapper">
-
-                    <div className="titel-box">
-
-                        <div className="top-title">
-                            <h1>beachside clubhouse</h1>
+                        <div>
+                            <img src="content1.jpg" />
                         </div>
 
-                        <div className="top-sub-titel">
-                            <p>海の見えるカフェ</p>
+                        <div>
+                            <img src="content1.jpg" />
+                        </div>
+
+                        <div>
+                            <img src="content1.jpg" />
+                        </div>
+
+                        <div>
+                            <img src="content1.jpg" />
                         </div>
 
                     </div>
 
-                </div> */}
+                </div>
+
+
+                <div className="my-28 md:p-10">
+
+                    <div className="text-center">
+                        <h1 className="font-title text-3xl">Menu</h1>
+                    </div>
+
+                </div>
 
             </div>
         )
