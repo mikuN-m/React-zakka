@@ -6,14 +6,14 @@ module.exports = {
     screens: {
       sm: '480px',
       md: '676px',
-      lg: '1157px',
+      lg: '995px',
       xl: '1440px',
     },
 
     colors: {
       title: "#222326",
       text: "#47423E",
-      emphasis: "#638b97",
+      emphasis: "#9CA5A6",
       bg: "#d6ecfc"
     },
 
