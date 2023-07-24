@@ -11,7 +11,7 @@ class App extends React.Component {
       <>
         <Router>
           <Routes>
-            <Route path="/" element={<Top />} />
+            <Route path="/React-zakka" element={<Top />} />
           </Routes>
         </Router>
       </>
