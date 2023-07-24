@@ -23,7 +23,7 @@ class Top extends React.Component {
                     </p>
                 </div>
 
-                <div className="w-full h-[60vh] bg-[url('top-img1.jpg')] bg-cover bg-center ">
+                <div className="w-full h-[60vh] bg-[url('/top-img1.jpg')] bg-cover bg-center ">
 
                     <div className="grid place-items-center w-full h-full bg-[#fff]/20">
                         <div className="text-center">
